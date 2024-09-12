@@ -1,4 +1,26 @@
+
+
 # Script: illustrating normal posterior approximation for probit regression
+
+
+# To install and load the package with the data
+install.packages("remotes") # only one time
+library(remotes)  
+install_github("StatisticsSU/SUdatasets") # only one time
+library(SUdatasets)
+install_github("StatisticsSU/bayeslearn") # only one time
+library(bayeslearn)
+
+# For a list of all available data sets
+help(, "SUdatasets")
+
+# For information about specific data sets
+help(name_of_dataset)
+
+
+
+
+
 
 library(bayeslearn)
 library(SUdatasets)
